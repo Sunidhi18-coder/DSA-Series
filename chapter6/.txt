@@ -1,0 +1,42 @@
+steps:
+
+any number
+add MSB:
+        1 --> 0
+        0 --> 1
+1's compliment:
+    (opposite/reverse)
+
+2's compliment:
+    (add 1 in number)
+
+To check : (for results) ===>
+reverse:
+        firstly, find 1's compliment
+        secondly, 2's compliment
+
+
+note : 
+    MSB 0 means => positive bit
+    MSB 1 means => negative bit
+
+Que.. find 2's compliment of -12 and reverse
+
+solve:
+
+12 == 1100
+msb add == 01100
+1's compliment => 
+10011
+   +1
+10100
+
+reverse:
+
+1's compliment =>
+01011  (positive)
+2's compliment =>
+01011
+   +1
+01100  (positive egnore msb 0 only take 1100 in answer)
+Answer => 1100
