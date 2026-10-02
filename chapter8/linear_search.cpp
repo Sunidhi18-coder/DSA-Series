@@ -22,6 +22,7 @@ int main(){
     int target = 80;
     
     cout<<linearSearch( arr, size, target);
-
+    
     return 0;
+
 }
