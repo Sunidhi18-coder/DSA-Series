@@ -1,3 +1,5 @@
+// right shift the array by one
+
 #include <iostream>
 using namespace std ;
 
